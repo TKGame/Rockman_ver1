@@ -1,4 +1,4 @@
-#include "RockMan.h"
+﻿#include "RockMan.h"
 
 #define FILENAMEROCKMAN "roackman_run.png"
 
@@ -28,15 +28,11 @@ void CRockMan::Render(CGraphics* graphics)
 	CMoveableObject::Render(graphics);
 }
 
-void CRockMan::Update()
+void CRockMan::Update(float deltaTime)
 {	
-	/*CInput::GetInstance()->ProcessKeyBoard();
-	CInput::GetInstance()->Update();*/
-
-	//if (_input->IsKeyDown(DIK_SPACE))
-	//{
-	//	//MessageBox(NULL, "Khong Khoi Tao duoc input!", "error", MB_OK);
-	//}
+	// update vị trí của object
+	this->_position.x += _v.x*deltaTime;
+	this->_position.y += _v.y*deltaTime;
 
 	DWORD now = GetTickCount();
 	if (now - lastTime > 1000 / 10)

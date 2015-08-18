@@ -33,9 +33,6 @@
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Windows.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Objects.cpp">
       <Filter>Source Files\Object</Filter>
     </ClCompile>
@@ -74,6 +71,9 @@
     </ClCompile>
     <ClCompile Include="Trace.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows.cpp">
+      <Filter>Source Files\FrameWork\DirectX</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

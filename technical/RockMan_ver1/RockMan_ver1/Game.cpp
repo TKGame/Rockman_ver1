@@ -33,8 +33,6 @@ void CGame::InitGame()
 		return;
 	}
 	LoadResource();
-
-	//this->_gameTime = new CGameTime(60);
 }
 
 DWORD lastTime;
@@ -76,6 +74,8 @@ void CGame::Run()
 
 			timeStart = timeEnd;
 		}
+
+		CInput::GetInstance()->ProcessKeyBoard(this->hwnd);
 	}
 }
 

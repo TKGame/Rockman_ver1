@@ -17,6 +17,7 @@ public:
 
 	int _keyUp;
 	int _keyDown;
+	int IsKeyDown(int KeyCode);
 private:
 	CInput();
 	static CInput* _pInstance;
@@ -28,8 +29,7 @@ private:
 	BYTE  _KeyStates[256];
 	// Bộ đệm trạng thái của bàn phím DirectInput 
 	BYTE  _preKeyStates[256];
-
-	int IsKeyDown(int KeyCode);
+	
 
 	DIDEVICEOBJECTDATA _KeyEvents[KEYBOARD_BUFFER_SIZE];
 

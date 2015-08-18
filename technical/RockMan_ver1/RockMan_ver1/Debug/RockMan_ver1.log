@@ -1,82 +1,13 @@
-﻿Build started 8/18/2015 5:33:55 PM.
+﻿Build started 8/18/2015 11:02:54 PM.
      1>Project "E:\DO AN\NHAP MON GAME\Game_RockMan_ver1\trunk\technical\RockMan_ver1\RockMan_ver1\RockMan_ver1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Collision.cpp FileUtil.cpp Game.cpp GameObject.cpp GameTime.cpp Graphics.cpp Input.cpp LoadBackground.cpp Objects.cpp RockMan.cpp Sprite.cpp Texture.cpp Trace.cpp Windows.cpp Winmain.cpp
-         Winmain.cpp
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(4): warning C4005: 'SCREEN_WIDTH' : macro redefinition
-                 e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(3) : see previous definition of 'SCREEN_WIDTH'
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(5): warning C4005: 'SCREEN_HEIGHT' : macro redefinition
-                 e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(4) : see previous definition of 'SCREEN_HEIGHT'
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(3): warning C4005: 'SCREEN_WIDTH' : macro redefinition
-                 e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(4) : see previous definition of 'SCREEN_WIDTH'
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(4): warning C4005: 'SCREEN_HEIGHT' : macro redefinition
-                 e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(5) : see previous definition of 'SCREEN_HEIGHT'
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         Windows.cpp
-         Trace.cpp
-         Texture.cpp
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\texture.cpp(36): warning C4244: '=' : conversion from 'UINT' to 'float', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\texture.cpp(37): warning C4244: '=' : conversion from 'UINT' to 'float', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\texture.cpp(55): warning C4244: 'argument' : conversion from 'float' to 'UINT', possible loss of data
-         Sprite.cpp
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\sprite.cpp(15): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\sprite.cpp(16): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt RockMan.cpp
          RockMan.cpp
      1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(4): warning C4005: 'SCREEN_WIDTH' : macro redefinition
                  e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(3) : see previous definition of 'SCREEN_WIDTH'
      1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(5): warning C4005: 'SCREEN_HEIGHT' : macro redefinition
                  e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(4) : see previous definition of 'SCREEN_HEIGHT'
          c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         Objects.cpp
-         LoadBackground.cpp
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(3): warning C4005: 'SCREEN_WIDTH' : macro redefinition
-                 e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(4) : see previous definition of 'SCREEN_WIDTH'
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(4): warning C4005: 'SCREEN_HEIGHT' : macro redefinition
-                 e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(5) : see previous definition of 'SCREEN_HEIGHT'
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\loadbackground.cpp(81): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\loadbackground.cpp(115): warning C4244: '=' : conversion from 'FLOAT' to 'LONG', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\loadbackground.cpp(116): warning C4244: '=' : conversion from 'FLOAT' to 'LONG', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\loadbackground.cpp(117): warning C4244: '=' : conversion from 'FLOAT' to 'LONG', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\loadbackground.cpp(118): warning C4244: '=' : conversion from 'FLOAT' to 'LONG', possible loss of data
-         Input.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         Graphics.cpp
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\graphics.cpp(112): warning C4552: '-' : operator has no effect; expected operator with side-effect
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\graphics.cpp(161): warning C4244: '=' : conversion from 'LONG' to 'float', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\graphics.cpp(162): warning C4244: '=' : conversion from 'LONG' to 'float', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\graphics.cpp(168): warning C4244: '=' : conversion from 'LONG' to 'float', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\graphics.cpp(169): warning C4244: '=' : conversion from 'LONG' to 'float', possible loss of data
-         GameTime.cpp
-         GameObject.cpp
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\gameobject.cpp(41): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\gameobject.cpp(42): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\gameobject.cpp(43): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\gameobject.cpp(44): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\gameobject.cpp(81): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\gameobject.cpp(82): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\gameobject.cpp(83): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\gameobject.cpp(84): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-         Game.cpp
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(4): warning C4005: 'SCREEN_WIDTH' : macro redefinition
-                 e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(3) : see previous definition of 'SCREEN_WIDTH'
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(5): warning C4005: 'SCREEN_HEIGHT' : macro redefinition
-                 e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(4) : see previous definition of 'SCREEN_HEIGHT'
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(3): warning C4005: 'SCREEN_WIDTH' : macro redefinition
-                 e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(4) : see previous definition of 'SCREEN_WIDTH'
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\global.h(4): warning C4005: 'SCREEN_HEIGHT' : macro redefinition
-                 e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\config.h(5) : see previous definition of 'SCREEN_HEIGHT'
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         FileUtil.cpp
-         Collision.cpp
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\collision.cpp(20): warning C4244: '=' : conversion from 'LONG' to 'float', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\collision.cpp(21): warning C4244: '=' : conversion from 'LONG' to 'float', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\collision.cpp(22): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\collision.cpp(23): warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
-         Camera.cpp
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\camera.cpp(54): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\camera.cpp(55): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
-         Generating Code...
-     1>e:\do an\nhap mon game\game_rockman_ver1\trunk\technical\rockman_ver1\rockman_ver1\graphics.cpp(151): warning C4715: 'CGraphics::GetSpriteHandle' : not all control paths return a value
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\DO AN\NHAP MON GAME\Game_RockMan_ver1\trunk\technical\RockMan_ver1\Debug\RockMan_ver1.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib dinput8.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\DO AN\NHAP MON GAME\Game_RockMan_ver1\trunk\technical\RockMan_ver1\Debug\RockMan_ver1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\DO AN\NHAP MON GAME\Game_RockMan_ver1\trunk\technical\RockMan_ver1\Debug\RockMan_ver1.lib" /MACHINE:X86 Debug\Camera.obj
          Debug\Collision.obj
@@ -99,4 +30,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:10.09
+Time Elapsed 00:00:00.83

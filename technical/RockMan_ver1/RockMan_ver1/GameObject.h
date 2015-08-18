@@ -16,7 +16,7 @@ public:
 	// cài đặt ban đầu các thành phần trong object
 	virtual int Initlize() =0;
 	// update
-	virtual void Update() =0;
+	virtual void Update(float deltaTime) =0;
 	// draw Object 
 	virtual void Render(CGraphics* graphics) =0;
 	// update Box
